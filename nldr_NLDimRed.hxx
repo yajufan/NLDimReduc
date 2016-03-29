@@ -1,14 +1,5 @@
 //
 // File:        nldr_NLDimRed.hxx
-// Package:     Sapphire Non-Linear Dimension Reduction
-// Copyright:   
-// Release:     $Name:  $
-// Revision:    $Revision:  $
-// Modified:    $Date:  $
-// Description: Non-Linear Dimension Reduction Base Class
-// Authors:     Chandrika Kamath and Ya-Ju Fan, LLNL
-// 	Copied wrapResults() from dr_Transform 
-//		- written by Erick Cantu-Paz and Cyrus Harrison
 //
 
 
@@ -39,10 +30,6 @@
 
 
 
-#ifndef LACKS_NAMESPACE
-using namespace std;
-namespace Sapphire {
-#endif
 #define _DXX_
 
 
