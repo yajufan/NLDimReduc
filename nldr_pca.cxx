@@ -1,14 +1,5 @@
 //
 // File:        nldr_pca.cxx
-// Package:     Sapphire Non-Linear Dimension Reduction
-// Copyright:   
-// Release:     $Name:  $
-// Revision:    $Revision:  $
-// Modified:    $Date:  $
-// Description: Non-Linear Dimension Reduction Class for tSNE algorithm
-// 				Add the exaggeration of P option
-//			 	Add adaptive learning rate
-// Authors:     Chandrika Kamath and Ya-Ju Fan, LLNL
 //
 
 
@@ -26,10 +17,7 @@
 #define included_cfloat
 #endif
 
-#ifndef LACKS_NAMESPACE
-using namespace std;
-namespace Sapphire {
-#endif
+
 #define _DXX_
 
 
