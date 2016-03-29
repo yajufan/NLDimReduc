@@ -1,12 +1,5 @@
 //
 // File:        nldr_LLEmbed.cxx
-// Package:     Sapphire Non-Linear Dimension Reduction
-// Copyright:   
-// Release:     $Name:  $
-// Revision:    $Revision:  $
-// Modified:    $Date:  $
-// Description: Non-Linear Dimension Reduction Class for LLEmbed algorithm
-// Authors:     Chandrika Kamath and Ya-Ju Fan, LLNL
 //
 
 
@@ -57,17 +50,6 @@ public:
     }
 };
 
-/**
- *
- * Class for the LLEmbed algorithm for nonlinear dimension reduction. 
- *
- * TODO: Yaru- pls add any references used in the implementation. You will
- * probably need to include other header files, such as the one for
- * eigenvalue decomp. You will also need to add functions to get and set
- * different variables used in the code or to provide the user relevant
- * information e.g. the eigenvalues.
- *
- */
 
 /** 
 * Default Constructor
