@@ -1,12 +1,5 @@
 //
 // File:        nldr_NLDimRed.cxx
-// Package:     Sapphire Non-Linear Dimension Reduction
-// Copyright:   
-// Release:     $Name:  $
-// Revision:    $Revision:  $
-// Modified:    $Date:  $
-// Description: Non-Linear Dimension Reduction Base Class
-// Authors:     Chandrika Kamath and Ya-Ju Fan, LLNL
 //
 
 
@@ -22,10 +15,7 @@
 #include <map>
 #endif
 
-#ifndef LACKS_NAMESPACE
-using namespace std;
-namespace Sapphire {
-#endif
+
 
 /**
 * Transform InstanceArray to DenseMatrix
