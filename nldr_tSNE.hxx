@@ -43,10 +43,6 @@
 #endif
 
 
-#ifndef LACKS_NAMESPACE
-using namespace std;
-namespace Sapphire {
-#endif
 #define _DXX_
 
 
