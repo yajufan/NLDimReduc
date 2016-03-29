@@ -1,12 +1,5 @@
 //
 // File:        nldr_tSNE.hxx
-// Package:     Sapphire Non-Linear Dimension Reduction
-// Copyright:   
-// Release:     $Name:  $
-// Revision:    $Revision:  $
-// Modified:    $Date:  $
-// Description: Non-Linear Dimension Reduction Class for tSNE algorithm
-// Authors:     Chandrika Kamath and Ya-Ju Fan, LLNL
 //
 
 #include <time.h>
