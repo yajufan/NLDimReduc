@@ -1,15 +1,5 @@
 //
 // File:        nldr_LapEigMap.cxx
-// Package:     Sapphire Non-Linear Dimension Reduction
-// Copyright:   
-// Release:     $Name:  $
-// Revision:    $Revision:  $
-// Modified:    $Date:  $
-// Description: Non-Linear Dimension Reduction Class for LapEigMap algorithm
-//				Estimate the intrinsic dimensionality 
-//				using the objective function.
-//				Using Shared Nearest Neighbors
-// Authors:     Chandrika Kamath and Ya-Ju Fan, LLNL
 //
 
 #include <cfloat>
@@ -24,10 +14,6 @@
 #endif
 
 
-#ifndef LACKS_NAMESPACE
-using namespace std;
-namespace Sapphire {
-#endif
 #define _DXX_
 
 
@@ -41,17 +27,6 @@ struct compareDouble
 };
 
 
-/**
- *
- * Class for the LapEigMap algorithm for nonlinear dimension reduction. 
- *
- * TODO: Yaru- pls add any references used in the implementation. You will
- * probably need to include other header files, such as the one for
- * eigenvalue decomp. You will also need to add functions to get and set
- * different variables used in the code or to provide the user relevant
- * information e.g. the eigenvalues.
- *
- */
 
 /** 
 * Default Constructor
