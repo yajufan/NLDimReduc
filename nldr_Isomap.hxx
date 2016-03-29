@@ -1,12 +1,5 @@
 //
 // File:        nldr_Isomap.hxx
-// Package:     Sapphire Non-Linear Dimension Reduction
-// Copyright:   
-// Release:     $Name:  $
-// Revision:    $Revision:  $
-// Modified:    $Date:  $
-// Description: Non-Linear Dimension Reduction Class for Isomap algorithm
-// Authors:     Chandrika Kamath and Ya-Ju Fan, LLNL
 //
 
 
@@ -43,24 +36,8 @@
 #define included_string
 #endif
 
-#ifndef LACKS_NAMESPACE
-using namespace std;
-namespace Sapphire {
-#endif
 #define _DXX_
 
-
-/**
- *
- * Class for the Isomap algorithm for nonlinear dimension reduction. 
- *
- * TODO: Yaru- pls add any references used in the implementation. You will
- * probably need to include other header files, such as the one for
- * eigenvalue decomp. You will also need to add functions to get and set
- * different variables used in the code or to provide the user relevant
- * information e.g. the eigenvalues.
- *
- */
 
 class nldr_Isomap: public nldr_NLDimRed
 {
