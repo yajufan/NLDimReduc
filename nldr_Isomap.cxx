@@ -1,19 +1,5 @@
 //
 // File:        nldr_Isomap.cxx
-// Package:     Sapphire Non-Linear Dimension Reduction
-// Copyright:   
-// Release:     $Name:  $
-// Revision:    $Revision:  $
-// Modified:    $Date:  $
-// Description: Non-Linear Dimension Reduction Class for Isomap algorithm
-//				- Overlapping apply() funciton
-//				- Residual Variance
-//				- Replace Vector<double> by Vector<Vector<double> >
-// 				- Store original indices before removing outliers
-//				- Change Input matrix from InstanceArry to DenseMatrix
-//				April 27, 2011
-//				- Use Euclidean distances in reduced space for residual variances
-// Authors:     Chandrika Kamath and Ya-Ju Fan, LLNL
 //
 
 
@@ -28,23 +14,6 @@
 #include <dgeev.h> 
 #define included_dgeev
 #endif
-
-#ifndef LACKS_NAMESPACE
-using namespace std;
-namespace Sapphire {
-#endif
-
-/**
- *
- * Class for the Isomap algorithm for nonlinear dimension reduction. 
- *
- * TODO: Yaru- pls add any references used in the implementation. You will
- * probably need to include other header files, such as the one for
- * eigenvalue decomp. You will also need to add functions to get and set
- * different variables used in the code or to provide the user relevant
- * information e.g. the eigenvalues.
- *
- */
 
 
 
